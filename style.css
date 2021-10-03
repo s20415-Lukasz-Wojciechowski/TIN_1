@@ -1,0 +1,134 @@
+ /**{
+	outline: red solid 1px;
+} */
+body{
+	margin: 0;
+}
+:root{
+	--mainColor: #21ff44;
+	--textColor: red;
+	--assignmentMargin: 15vh;
+	--mainListPadding: 15px;
+	--mainListMargin: 7.5px;
+	--mainFontSize: 20px;
+}
+/*Assigment B
+ tag prop
+ */
+p,header{
+	color: var(--textColor);
+	font-size: var(--mainFontSize);
+	font-style: normal;
+}
+
+
+a{
+	text-decoration: none;
+
+}
+
+.assignmentATable{
+	display: inline-block;
+}
+.assignmentATable tr, .assignmentATable th, .assignmentATable td{
+	outline: 1px solid #666;
+	padding: 5px;
+	margin: 15px;
+	background-color: yellow;
+}
+
+
+ul{
+	list-style: none;
+}
+/* Navbar */
+.header{
+	background-color: var(--mainColor);
+}
+.navbar{
+	height: 5rem;
+	
+	float: right;
+}
+.navbar--icon{
+	display: inline-block;
+	font-size: 50px;
+	color: #eee;
+}
+.navbar--list{
+	list-style-type: none;
+	padding-left: 0;
+	text-align: right;
+	display: inline-block;
+
+}
+.navbar--item{
+	display: inline;
+	padding: 7.5px;
+	margin: 25px 1.25vw;
+}
+/*Assignments prop*/
+
+.assignemnt{
+	margin-top: var(--assignmentMargin);
+}
+
+/*Assignment A*/
+.paragraph{
+	font-style: italic;
+	font-size: 25px;
+	color: var(--mainColor);
+}
+#First{
+	text-align: center;
+	margin-top: 15vh;
+}
+.assignmentALowerList{
+	padding: var(--mainListPadding) ;
+	margin: var(--mainListMargin) ;
+}
+/*footer*/
+footer{
+	margin-top: 150px;
+	background-color: var(--mainColor);
+	height: 60px;
+}
+
+.footer--text{
+	text-align: center;
+}
+
+
+#First > div{
+	margin: 20vh auto;
+}
+
+/*Assigment C*/
+.container {
+	clear: both;
+	content: "";
+	display:table;
+
+}
+
+
+.col-50{
+	width: 50%;
+	float: left;
+ 
+}
+.col-50 img {
+	marigin: 25px;
+	padding: 10px;
+	float: right;
+
+}
+
+.col-50 p{
+	text-align: justify;
+	padding: 15px;
+}
+
+.col-50:nth-child(2) img:nth-child(1){
+	float: left;
+}
